@@ -1,0 +1,22 @@
+{
+    "name": "Kitchen Appliances | All You Need",
+    "short_name": "Kitchen Appliances",
+    "icons": [
+        {
+      "src": "../images/icons128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "../images/icons256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+
+    "start_url": "../index.html",
+    "display": "standalone",
+    "background_color": "#3E4EB8",
+    "theme_color": "#000"
+    
+  }

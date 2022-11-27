@@ -1,0 +1,686 @@
+/* width */
+ ::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000 !important; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #212529 !important; 
+  }
+.form-inputs {
+    position: relative
+    
+  }
+  
+  .form-inputs .form-control {
+    height: 45px
+  }
+  
+  .form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000
+  }
+  
+  .form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px
+  }
+  
+  .fa-bag-shopping{
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center
+  }
+  .qty {
+      font-size: 12px
+  }
+  #logo{
+    width: 220px;
+}
+@media (max-width:1247px) {
+    #logo{
+        width: 200px;
+    }
+    
+    
+}
+@media (max-width:1138px) {
+    #logo{
+        width: 180px;
+    }
+    .fw-bold{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:1030px) {
+    #logo{
+        width: 160px;
+    }
+    
+    
+}
+@media (max-width:922px) {
+    #logo{
+        width: 145px;
+    }
+    
+    
+}
+@media (max-width:836px) {
+    #logo{
+        width: 130px;
+    }
+    
+    
+}
+@media (max-width:819px) {
+    .qty{
+        font-size: 10px;
+    }
+    .fw-bold{
+        font-size: 12px;
+    }
+    
+}
+
+    h1 {
+    font-weight: 400;
+    }
+    h4 {
+    margin: 15px 0 4px;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc; 
+    }
+    .a {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    }
+    .email {
+    display: block;
+    width: 45%;
+    }
+    .a:hover, textarea:hover {
+    outline: none;
+    border: 1px solid #AAA04E;
+    }
+    th, td {
+    width: 15%;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    vertical-align: unset;
+    line-height: 18px;
+    font-weight: 400;
+    word-break: break-all;
+    }
+    .first-col {
+    width: 16%;
+    text-align: left;
+    }
+    table {
+    width: 100%;
+    }
+    textarea {
+    width: calc(100% - 6px);
+    }
+    .btn-block {
+    margin-top: 20px;
+    text-align: center;
+    }
+    /* button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    } */
+    .btn:hover {
+    background-color:#AAA04E;
+    }
+    @media (min-width: 568px) {
+    th, td {
+    word-break: keep-all;
+    }
+   
+    }
+
+ @media(max-width:568px){
+    .p{
+        font-size: 13px;
+    }
+    
+ }  
+ @media(max-width:451px){
+    .p{
+        font-size: 10px;
+    }
+ }  
+ @media(max-width:329px){
+    .p{
+        font-size: 9px;
+    }
+ }    
+ @media(max-width:300px){
+    .p{
+        font-size: 7.5px;
+    }
+ }  
+
+.container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+
+.btn{
+    background-color: #9e9656;
+    border: #9e9656;
+}
+#ser{
+   color: #000;
+}
+
+/* LOADER */
+
+
+.load{
+    background-color: #f1f2f3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+.start{
+   
+    /* background-image: url(/Loader/Double\ Ring-1s-200px.gif); */
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 42%;
+    top: 34%;
+    background-repeat: no-repeat;
+
+}
+@media (max-width:1150px) {
+    .start{
+        margin-left: -10px;
+        
+    }
+
+}
+@media (max-width:1100px) {
+    .start{
+        margin-left: -20px;
+        
+    }
+
+}
+@media (max-width:1050px) {
+    .start{
+        margin-left: -20px;
+        
+    }
+
+}
+@media (max-width:1000px) {
+    .start{
+        margin-left: -25px;
+        
+    }
+
+}
+@media (max-width:950px) {
+    .start{
+        margin-left: -30px;
+        
+    }
+
+}
+
+ @media (max-width:900px) {
+    .start{
+        margin-left: -20px;
+    }
+    .ldd{
+        width: 180px;
+
+    }
+}
+@media (max-width:850px) {
+    .start{
+        margin-left: -24px;
+        
+    }
+
+}
+@media (max-width:800px) {
+    .start{
+        margin-left: -23px;
+        
+    }
+
+}
+ @media (max-width:768px) {
+     .start{
+         margin-left: -20px;
+     }
+     .ldd{
+         width: 160px;
+     }
+}
+@media (max-width:720px) {
+    .start{
+        margin-left: -24px;
+        
+    }
+
+}
+@media (max-width:700px) {
+    .start{
+        margin-left: -24px;
+        
+    }
+
+}
+@media (max-width:650px) {
+    .start{
+        margin-left: -29px;
+        
+    }
+
+}
+@media (max-width:600px) {
+    .start{
+        margin-left: -33px;
+        
+    }
+
+}
+ @media (max-width:550px) {
+
+    .start{
+        margin-left: -38px;
+    }
+   
+}
+ @media (max-width:500px) {
+
+    .start{
+        margin-left: -32px;
+    }
+    .ldd{
+        width: 140px;
+    }
+}
+ @media (max-width:450px) {
+
+    .start{
+        margin-left: -36px;
+    }
+   
+}
+ 
+ @media (max-width:400px) {
+
+    .start{
+        margin-left: -29px;
+    }
+    .ldd{
+        width: 120px;
+    }
+}
+ @media (max-width:350px) {
+
+    .start{
+        margin-left: -33px;
+    }
+   
+}
+     
+ @media (max-width:300px) {
+
+    .start{
+        margin-left: -27px;
+        
+    }
+    .ldd{
+        width: 100px;
+    }
+}
+     
+ 
+/* LOADER END */
+
+#navbar_top{
+    display: none;
+    
+}
+
+h6{
+    font-weight: 999;
+}
+
+
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+    .rating-list-center {
+        width: 80%;
+    }
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    .offer-dedicated-nav .nav-link.active,
+    .offer-dedicated-nav .nav-link:hover,
+    .offer-dedicated-nav .nav-link:focus {
+        border-color: #3868fb;
+        color: #3868fb;
+    }
+    .offer-dedicated-nav .nav-link {
+        border-bottom: 2px solid #fff;
+        color: #000000;
+        padding: 16px 0;
+        font-weight: 600;
+    }
+    .offer-dedicated-nav .nav-item {
+        margin: 0 37px 0 0;
+    }
+    .restaurant-detailed-action-btn {
+        margin-top: 12px;
+    }
+    .restaurant-detailed-header-right .btn-success {
+        border-radius: 3px;
+        height: 45px;
+        margin: -18px 0 18px;
+        min-width: 130px;
+        padding: 7px;
+    }
+    .text-black {
+        color: #000000;
+    }
+    .icon-overlap {
+        bottom: -23px;
+        font-size: 74px;
+        opacity: 0.23;
+        position: absolute;
+        right: -32px;
+    }
+    .menu-list img {
+        width: 41px;
+        height: 41px;
+        object-fit: cover;
+    }
+    .restaurant-detailed-header-left img {
+        width: 88px;
+        height: 88px;
+        border-radius: 3px;
+        object-fit: cover;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    }
+    .reviews-members .media .mr-3 {
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+    }
+    .rounded-pill {
+        border-radius: 50rem!important;
+    }
+    .total-like-user {
+        border: 2px solid #fff;
+        height: 34px;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+        width: 34px;
+    }
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+    .rating-list-center {
+        width: 80%;
+    }
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+    
+
+@media (max-width:576px){
+    #t5{
+        font-size: 12px;
+    }
+    #t4{
+        font-size: 12px;
+    } 
+     #t3{
+        font-size: 12px;
+    } 
+     #t2{
+        font-size: 12px;
+    }
+    #p5{
+        font-size: 12px;
+    }
+    #p4{
+        font-size: 12px;
+    }
+    #p3{
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 12px;
+    }
+}
+@media (max-width:410px){
+    #t5{
+        font-size: 10px;
+    }
+    #t4{
+        font-size: 10px;
+    } 
+     #t3{
+        font-size: 10px;
+    } 
+     #t2{
+        font-size: 10px;
+    }
+    #p5{
+        font-size: 10px;
+    }
+    #p4{
+        font-size: 10px;
+    }
+    #p3{
+        font-size: 10px;
+    }
+    #p2{
+        font-size: 10px;
+    }
+}
+@media (max-width:355px){
+    #t5{
+        font-size: 8px;
+    }
+    #t4{
+        font-size: 8px;
+    } 
+     #t3{
+        font-size: 8px;
+    } 
+     #t2{
+        font-size: 8px;
+    }
+    #p5{
+        font-size: 8px;
+    }
+    #p4{
+        font-size: 8px;
+    }
+    #p3{
+        font-size: 8px;
+    }
+    #p2{
+        font-size: 8px;
+    }
+}
+@media (max-width:305px){
+    #t5{
+        font-size: 7.5px;
+    }
+    #t4{
+        font-size: 7.5px;
+    } 
+     #t3{
+        font-size: 7.5px;
+    } 
+     #t2{
+        font-size: 7.5px;
+    }
+    #p5{
+        font-size: 7.5px;
+    }
+    #p4{
+        font-size: 7.5px;
+    }
+    #p3{
+        font-size: 7.5px;
+    }
+    #p2{
+        font-size: 7.5px;
+    }
+}

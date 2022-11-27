@@ -1,0 +1,300 @@
+/* body{
+    
+} */
+/* width */
+ ::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000 !important; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #212529 !important; 
+  }
+.form-inputs {
+    position: relative
+  }
+  
+  .form-inputs .form-control {
+    height: 45px
+  }
+  
+  .form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000
+  }
+  
+  .form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px
+  }
+  
+  .shop-bag {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center
+  }
+  .qty {
+      font-size: 12px
+  }
+  #logo{
+    width: 220px;
+}
+@media (max-width:1247px) {
+    #logo{
+        width: 200px;
+    }
+    
+    
+}
+@media (max-width:1138px) {
+    #logo{
+        width: 180px;
+    }
+    .fw-bold{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:1030px) {
+    #logo{
+        width: 160px;
+    }
+    
+    
+}
+@media (max-width:922px) {
+    #logo{
+        width: 145px;
+    }
+    
+    
+}
+@media (max-width:836px) {
+    #logo{
+        width: 130px;
+    }
+    
+    
+}
+@media (max-width:819px) {
+    .qty{
+        font-size: 10px;
+    }
+    .fw-bold{
+        font-size: 12px;
+    }
+    
+}
+.container-fluid{
+      margin: 0;
+      padding: 0;
+}
+  
+#ser{
+      color: black;
+      
+}
+#bag{
+      color: rgb(255, 255, 255);
+}
+
+    /* Loader */
+
+
+    .load{
+        background-color: #f1f2f3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .start{
+       
+        /* background-image: url(/Loader/Double\ Ring-1s-200px.gif); */
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 42%;
+        top: 34%;
+        background-repeat: no-repeat;
+    
+    }
+    @media (max-width:1150px) {
+      .start{
+          margin-left: -10px;
+          
+      }
+  
+  }
+  @media (max-width:1100px) {
+      .start{
+          margin-left: -20px;
+          
+      }
+  
+  }
+  @media (max-width:1050px) {
+      .start{
+          margin-left: -20px;
+          
+      }
+  
+  }
+  @media (max-width:1000px) {
+      .start{
+          margin-left: -25px;
+          
+      }
+  
+  }
+  @media (max-width:950px) {
+      .start{
+          margin-left: -30px;
+          
+      }
+  
+  }
+  
+   @media (max-width:900px) {
+      .start{
+          margin-left: -20px;
+      }
+      .ldd{
+          width: 180px;
+  
+      }
+  }
+  @media (max-width:850px) {
+      .start{
+          margin-left: -24px;
+          
+      }
+  
+  }
+  @media (max-width:800px) {
+      .start{
+          margin-left: -23px;
+          
+      }
+  
+  }
+   @media (max-width:768px) {
+       .start{
+           margin-left: -20px;
+       }
+       .ldd{
+           width: 160px;
+       }
+  }
+  @media (max-width:720px) {
+      .start{
+          margin-left: -24px;
+          
+      }
+  
+  }
+  @media (max-width:700px) {
+      .start{
+          margin-left: -24px;
+          
+      }
+  
+  }
+  @media (max-width:650px) {
+      .start{
+          margin-left: -29px;
+          
+      }
+  
+  }
+  @media (max-width:600px) {
+      .start{
+          margin-left: -33px;
+          
+      }
+  
+  }
+   @media (max-width:550px) {
+  
+      .start{
+          margin-left: -38px;
+      }
+     
+  }
+   @media (max-width:500px) {
+  
+      .start{
+          margin-left: -32px;
+      }
+      .ldd{
+          width: 140px;
+      }
+  }
+   @media (max-width:450px) {
+  
+      .start{
+          margin-left: -36px;
+      }
+     
+  }
+   
+   @media (max-width:400px) {
+  
+      .start{
+          margin-left: -29px;
+      }
+      .ldd{
+          width: 120px;
+      }
+  }
+   @media (max-width:350px) {
+  
+      .start{
+          margin-left: -33px;
+      }
+     
+  }
+       
+   @media (max-width:300px) {
+  
+      .start{
+          margin-left: -27px;
+          
+      }
+      .ldd{
+          width: 100px;
+      }
+  }
+       
+   
+  /* LOADER END */
+  
+  #navbar_top{
+      display: none;
+ 
+  }
+  .container-fluid{
+      margin: 0%;
+      padding: 0%;
+  }
